@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <title>My App</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="menu_btn" class="burger_menu_btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo_microsoft">
+                <img src="images/microsoft_logo.png" />
+            </div>
+            <div class="logo_xbox">
+                <img src="images/xbox_logo.png" />
+            </div>
+            <nav>
+                <ul>
+                    <li>Game Pass</li>
+                    <li>Games</li>
+                    <li>Devices</li>
+                    <li>Community</li>
+                    <!-- <li>For Everyone</li>
+                    <li>My Xbox</li>
+                    <li>Xbox Xbox Support</li> -->
+                </ul>
+            </nav>
+            <div class="right_menu">
+                <ul>
+                    <!-- <li class="search">
+                        <span>Search</span>
+                        <i class="fas fa-search"></i>
+                    </li> -->
+                    <li class="shopping_cart">
+                        <span>Cart</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </li>
+                    <li class="user_login">
+                        <span>Sign in</span>
+                        <i class="far fa-user"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="low-resolution-menu" class="low-resolution-nav">
+            <nav>
+                <ul>
+                    <li><a>Game Pass</a></li>
+                    <li><a>Games</a></li>
+                    <li><a>Devices</a></li>
+                    <li><a>Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="header-slider">
+        <div class="slider-item visible">
+            <div class="slider_one">
+                <img src="images/x_box_banner_2.jpg" />
+                <div class="slider_one__description">
+                    <h2>Xbox Series X</h2>
+                    <p>Power your dreams</p>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="slider_two">
+                <img src="images/sea_of_thieves_banner.jpg" /> 
+                <div class="slider_two__description">
+                    <h2>Sea of thieves</h2>
+                    <p>Already in Steam</p>
+                    <button>PLAY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="slider_three">
+                <img src="images/halo_infinite_banner.jpg" />
+                <div class="slider_three__description">
+                    <h2>Halo Infinite</h2>
+                    <p>Coming to Xbox Game Pass</p>
+                    <button>PLAY TRAILER</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button id="prev_btn" class="slider-buttons__prev"><i class="fas fa-chevron-left"></i></button>
+            <button id="next_btn" class="slider-buttons__next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+    <main>
+        <div class="main-functions">
+            <a>
+                <i class="fab fa-xbox"></i>
+                <span>CONSOLES</span>
+            </a>
+            <a>
+                <i class="fas fa-gamepad"></i>
+                <span>GAMES</span>
+            </a>
+            <a>
+                <i class="fas fa-headset"></i>
+                <span>ACCESSORIES</span>
+            </a>
+            <a>
+                <i class="fas fa-users"></i>
+                <span>COMMUNITY</span>
+            </a>
+            <a>
+                <i class="fas fa-tags"></i>
+                <span>DEALS</span>
+            </a>
+            <a>
+                <i class="fas fa-user"></i>
+                <span>SIGN IN</span>
+            </a>
+        </div>
+        <div class="advertising_blocks">
+            <div class="first_blocks">
+                <div class="first_blocks__left">
+                    <div class="first_blocks__left__sells">
+                        <img src="images/advertising_img/sells.jpg" />
+                        <div class="first_blocks__left__sells__description">
+                            <h2>Ultimate Game Sale</h2>
+                            <p>Save up to 65% on select Xbox games.</p>
+                            <div class="link">
+                                <a>SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first_blocks__left__halo">
+                        <div class="first_blocks__left__halo__img">
+                            <img src="images/advertising_img/halo_on_pc.jpg" />
+                        </div>
+                        <div class="first_blocks__left__halo__text">
+                            <div class="first_blocks__left__halo__text__container">
+                                <span>PLAY ON PC</span>
+                                <h2>Halo: The Master Chief Collection</h2>
+                                <p>The Great Journey on PC continues with Halo 3 on July 14</p>
+                                <div class="link">
+                                    <a>LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first_blocks__right">
+                    <div class="first_blocks__right__gamepass">
+                        <div class="first_blocks__right__gamepass__text">
+                            <div class="first_blocks__right__gamepass__text__container">
+                                <h2>Get your first month of Ultimate for $1</h2>
+                                <p>Includes Xbox Live Gold and over 100 high-quality console and PC games.</p>
+                                <div class="link">
+                                    <a>JOIN XBOX GAME PASS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first_blocks__right__gamepass__img">
+                            <img src="images/advertising_img/game_pass.jpg" />
+                        </div>
+                    </div>
+                    <div class="first_blocks__right__msflysim">
+                        <img src="images/advertising_img/micr_fly_sim.jpg" />
+                        <div class="first_blocks__right__msflysim__description">
+                            <h2>Microsoft Flight Simulator</h2>
+                            <p>The sky is calling</p>
+                            <div class="link">
+                                <a>GET IT NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second_block">
+                <div class="second_block__image">
+                    <img src="images/advertising_img/marvel_avengers.jpg" /> 
+                </div>
+                <div class="second_block__text">
+                    <h2>Marvel's Avengers</h2>
+                    <p>Play the BETA with Hero Missions, HARM Room challenges, War Zones and Drop Zones.</p>
+                    <div class="link">
+                        <a>PLAY BETA NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_block">
+                <div class="third_block__left">
+                    <div class="third_block__left__wasteland">
+                        <div class="third_block__left__wasteland__text">
+                            <div class="third_block__left__wasteland__text__container">
+                                <h2>Wasteland 3</h2>
+                                <p>The end has just begun</p>
+                                <div class="link">
+                                    <a>PRE-ORDER NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third_block__left__wasteland__img">
+                            <img src="images/advertising_img/wastland_3.jpg" />
+                        </div>
+                    </div>
+                    <div class="third_block__left__xboxcontroller">
+                        <img src="images/advertising_img/xbox_controller.jpg" />
+                        <div class="third_block__left__xboxcontroller__description">
+                            <h2>Greater Controls. Greater Gaming.</h2>
+                            <p>PowerA MOGA XP5-X Plus Bluetooth Controller</p>
+                            <div class="link">
+                                <a>BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="third_block__right">
+                    <div class="third_block__right__pga">
+                        <img src="images/advertising_img/pga_tour.jpg" />
+                        <div class="third_block__right__pga__description">
+                            <h2>PGA TOUR 2K21</h2>
+                            <p>Golf Got Game. Take on the pros!</p>
+                            <div class="link">
+                                <a>GET IT NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_block__right__battletoads">
+                        <div class="third_block__right__battletoads__text">
+                            <div class="third_block__right__battletoads__text__container">
+                                <h2>Battletoads</h2>
+                                <p>The Battletoads are back</p>
+                                <div class="link">
+                                    <a>GET IT NOW </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third_block__right__battletoads__img">
+                            <img src="images/advertising_img/battletoads.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth_block">
+                <div class="fourth_block__image">
+                    <img src="images/advertising_img/grounded.jpg" />
+                </div>
+                <div class="fourth_block__text">
+                    <h2>Graunded</h2>
+                    <p>XBOX Insider FIRS LOOK.</p>
+                    <div class="link">
+                        <a>PLAY BETA NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_follows">
+            <div class="container">
+                <span>Follow Xbox</span>
+                <a href="#"><i class="far fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer_info">
+                <div class="footer_info__xbox">
+                    <h3>Xbox</h3>
+                    <ul>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Photosensitive Seizure Warning</a></li>
+                        <li><a href="#">Community Standarts</a></li>
+                    </ul>
+                </div>
+                <div class="footer_info__fans">
+                    <h3>Fans</h3>
+                    <ul>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer_info__developers">
+                    <h3>For Developers</h3>
+                    <ul>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">ID@Xbox</a></li>
+                        <li><a href="#">Windows 10</a></li>
+                        <li><a href="#">Creators Program</a></li>
+                        <li><a href="#">Designed for Xbox</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <div class="footer_copyright__language">
+                    <i class="fas fa-globe-europe"></i>
+                    <p>English (United States)</p>
+                </div>
+                <div class="footer_copyright__menu">
+                    <ul>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact Microsoft</a></li>
+                        <li><a href="#">Privacy & cookies</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Trademarks</a></li>
+                        <li><a href="#">Safety & eco</a></li>
+                        <li><a href="#">About our ads</a></li>
+                        <li><a href="#">© My 2020</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../src/app.js"></script>
+</body>
+</html>
