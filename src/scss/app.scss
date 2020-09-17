@@ -36,8 +36,7 @@ header {
     padding-top: 5px;
     color: black;
     .low-resolution-nav {
-        display: none;
-
+        // display: none;
         overflow: hidden;
         -webkit-transition:max-height 0.4s linear;
         -moz-transition:max-height 0.4s linear;
@@ -46,14 +45,16 @@ header {
         background-color: rgb(242, 242, 242);
         // display: none;
         nav {
+            max-height: 0;
             overflow: hidden;
-            transform: translateY(100px);
+            transform: translateY(-300px);
             transition: 1.5s ease;
             
             width: 90%;
             margin: 0 auto;
             ul {
                 li {
+                    overflow: hidden;
                     transform: translateY(100px);
                     transition: 1.5s ease;
 
@@ -71,8 +72,9 @@ header {
     }
 
     .low-resolution-nav.show {
-        display: block;
+        // display: block;
         nav {
+            max-height: 400px;
             transform: translateY(0);
             ul {
                 li {
@@ -1181,6 +1183,40 @@ footer {
                         border-bottom: 2px solid black;
                     }
                 }
+            }
+        }
+    }
+
+    .header-slider {
+        .slider-item {
+            .slider_one {
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+
+            .slider_two {
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+
+            .slider_three {
+                h2 {
+                    font-size: 3rem;    
+                }
+
+                p {
+                    font-size: 1.7rem;
+                }
+
+            }
+        }
+
+        .slider-buttons {
+            button {
+                border-radius: 50%;
+                background-color: rgba(0, 0, 0, 0.425);
             }
         }
     }
