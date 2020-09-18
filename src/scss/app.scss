@@ -165,7 +165,9 @@ header {
             overflow: hidden;
             position: relative;
             img {
-                height: 100%;
+                transform: translateY(-140px);
+                display: block;
+                height: auto;
                 width: 100%;
             }
             
@@ -949,6 +951,42 @@ footer {
                             font-size: 0.8rem;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header-slider {
+        .slider-item {
+            .slider_one {
+                img {
+                    transform: translateY(-100px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .header-slider {
+        .slider-item {
+            .slider_one {
+                img {
+                    transform: translateY(-50px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-slider {
+        .slider-item {
+            .slider_one {
+                img {
+                    transform: translateY(0);
                 }
             }
         }
